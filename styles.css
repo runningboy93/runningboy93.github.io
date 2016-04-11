@@ -1,3 +1,91 @@
 body {
   background-color: #ccffff;
 }
+
+h1 {
+  border-style: solid;
+  border-width: 3px;
+  border-color: red;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-family: Helvetica;
+  font-size: 33px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#ghpromo {
+  font-family: Helvetica;
+  font-size: 14px;
+  text-decoration: underline;
+  color: #d24dff;
+  margin-left: 33px;
+  }
+
+h3 {
+  font-size: 22px;
+  text-decoration: none;
+  font-weight: bolder;
+  background-color: white;
+  color: red;
+  margin-left: 20px;
+  margin-right: 400px;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  font-family: Impact;
+  font-style: italic;
+  font-variant: small-caps;
+  font-size: 18px;
+}
+
+section {
+  background-image: url("http://jurist.org/feature/potus_seal.png");
+  background-color: white;
+}
+
+aside {
+  display: block;
+  float: right;
+  margin: 0 0 10px 10px;
+  border-style: solid;
+  border-color: navy;
+  border-width: 4px;
+  padding: 12px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+footer {
+  margin-left: auto;
+  margin-right: auto
+}
+
+h4 {
+  font-family: helvetica;
+  font-weight: bolder;
+  color:#FFA500;
+}
+
+a:link {
+  color: navy;
+}
+
+a:visited {
+  color: red;
+ }
+
+a:hover {
+  color:green;
+ }
+
+ @media screen and (max-width: 500px) {
+  body {
+    background-color: #d9ffb3;
+  }
+}
